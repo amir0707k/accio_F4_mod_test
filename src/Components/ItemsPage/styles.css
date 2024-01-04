@@ -1,0 +1,44 @@
+.all-items{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-inline: auto;
+}
+
+.items-list{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.alert{
+    position: sticky;
+    z-index: 1;
+    width: 350px;
+    left: 85%;
+    bottom: 2%;
+}
+
+
+
+@media only screen and (max-width:868px) {
+   .items-list{
+        margin: 5rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .items-list{
+        margin: 3rem;
+    }
+}
+
+@media only screen and (max-width:440px) {
+    .items-list{
+        margin: 1rem;
+    }
+}

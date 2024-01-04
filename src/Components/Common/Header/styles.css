@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--black);
+    color: var(--white);
+    align-items: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.left p, .right p{
+    cursor: pointer;
+}
